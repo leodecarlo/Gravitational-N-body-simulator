@@ -10,6 +10,7 @@ The force on each particle is computed with Newton's second law:
 
 ![Newton II](https://latex.codecogs.com/png.latex?m_i%20\vec{a}_i%20(t)%20=%20m_i%20\frac{d^2%20\vec{x}_i}{dt^2}%20=%20\sum_{j%20\neq%20i}^{N}%20\vec{F}_{ij}%20\\),
 
+such formula is computed exploting back reacton of Newton's thir law, making the code more efficient,
 and the motion integrated with the simple first order Euler's method (the goal is not a precise simulation but how to use template and overlaodin in this type of code):
 
 ![Numerical Integration](https://latex.codecogs.com/png.latex?\vec{v}_i%20(t%20+%20dt)%20=%20\vec{v}_i%20(t)%20+%20\vec{a}_i%20(t)%20dt,%20\\%20\vec{x}_i%20(t%20+%20dt)%20=%20\vec{x}_i%20(t)%20+%20\vec{v}_i%20(t)%20dt.)
