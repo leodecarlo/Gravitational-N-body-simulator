@@ -1,6 +1,7 @@
 # Gravitational-N-body-simulator
 
 This repository shows a C++ script of a N-body simulator with gravitational interactions, with the use of template and overlaoding.
+It is nothing special just a final exercise done for a C++ course where Classes,inheritance, polymorphism, overloading and Templetates were introduced.  
 The script show the use of overlaoding to redefine sum and subtractions suitable for the type of physical quantities involved in the simulation.
 Variable assignments are done within instances of templated classes or functions.
 
